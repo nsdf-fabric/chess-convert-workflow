@@ -268,6 +268,44 @@
           }
         }
       ]
+    },
+    {
+      "name": "test-group/example-nexus",
+      "url": "https://nsdf01.classe.cornell.edu/mod_visus?action=readdataset&dataset=test-group/example-nexus&cached=idx",
+      "color-mapper-type": "log",
+      "metadata": [
+        {
+          "type": "b64encode",
+          "filename": "/nfs/chess/user/rv43/Tomo_Sven/shanks-3731-a/ti-2-exsitu/retiga.yaml",
+          "encoded": "cHJlZml4OiByZXRpZ2EKcm93czogMjA0OApjb2x1bW5zOiAyMDQ4CnBpeGVsX3NpemU6Ci0gMC4wMDc0Ci0gMC4wMDc0CmxlbnNfbWFnbmlmaWNhdGlvbjogNS4wCg=="
+        },
+        {
+          "type": "b64encode",
+          "filename": "/nfs/chess/user/rv43/Tomo_Sven/shanks-3731-a/ti-2-exsitu/map.yaml",
+          "encoded": "dGl0bGU6IHNoYW5rcy0zNzMxLWEKc3RhdGlvbjogaWQzYQpleHBlcmltZW50X3R5cGU6IFRPTU8Kc2FtcGxlOgogIG5hbWU6IHRpLTItZXhzaXR1CnNwZWNfc2NhbnM6Ci0gc3BlY19maWxlOiAvbmZzL2NoZXNzL3Jhdy8yMDIzLTIvaWQzYS9zaGFua3MtMzczMS1hL3RpLTItZXhzaXR1L3NwZWMubG9nCiAgc2Nhbl9udW1iZXJzOiBbMThdCmluZGVwZW5kZW50X2RpbWVuc2lvbnM6Ci0gbGFiZWw6IHJvdGF0aW9uX2FuZ2xlcwogIHVuaXRzOiBkZWdyZWVzCiAgZGF0YV90eXBlOiBzY2FuX2NvbHVtbgogIG5hbWU6IHRoZXRhCi0gbGFiZWw6IHhfdHJhbnNsYXRpb24KICB1bml0czogbW0KICBkYXRhX3R5cGU6IHNtYl9wYXIKICBuYW1lOiByYW1zeAotIGxhYmVsOiB6X3RyYW5zbGF0aW9uCiAgdW5pdHM6IG1tCiAgZGF0YV90eXBlOiBzbWJfcGFyCiAgbmFtZTogcmFtc3oK"
+        },
+        {
+          "type": "b64encode",
+          "filename": "/nfs/chess/user/rv43/Tomo_Sven/shanks-3731-a/ti-2-exsitu/pipeline.yaml",
+          "encoded": "Y29uZmlnOgogIGludGVyYWN0aXZlOiBUcnVlCgpwaXBlbGluZToKCiAgIyBDb2xsZWN0IG1hcCBkYXRhCiAgLSBwaXBlbGluZS5NdWx0aXBsZVBpcGVsaW5lSXRlbToKICAgICAgaXRlbXM6CiAgICAgICAgLSBjb21tb24uU3BlY1JlYWRlcjoKICAgICAgICAgICAgc3BlY19jb25maWc6CiAgICAgICAgICAgICAgc3RhdGlvbjogaWQzYQogICAgICAgICAgICAgIGV4cGVyaW1lbnRfdHlwZTogVE9NTwogICAgICAgICAgICAgIHNwZWNfc2NhbnM6CiAgICAgICAgICAgICAgLSBzcGVjX2ZpbGU6IC9uZnMvY2hlc3MvcmF3LzIwMjMtMi9pZDNhL3NoYW5rcy0zNzMxLWEvdGktMi1leHNpdHUvc3BlYy5sb2cKICAgICAgICAgICAgICAgIHNjYW5fbnVtYmVyczoKICAgICAgICAgICAgICAgIC0gMTUKICAgICAgICAgICAgZGV0ZWN0b3JfbmFtZXM6CiAgICAgICAgICAgICAgLSByZXRpZ2EKICAgICAgICAgICAgc2NoZW1hOiBkYXJrZmllbGQKICAgICAgICAtIGNvbW1vbi5TcGVjUmVhZGVyOgogICAgICAgICAgICBzcGVjX2NvbmZpZzoKICAgICAgICAgICAgICBzdGF0aW9uOiBpZDNhCiAgICAgICAgICAgICAgZXhwZXJpbWVudF90eXBlOiBUT01PCiAgICAgICAgICAgICAgc3BlY19zY2FuczoKICAgICAgICAgICAgICAtIHNwZWNfZmlsZTogL25mcy9jaGVzcy9yYXcvMjAyMy0yL2lkM2Evc2hhbmtzLTM3MzEtYS90aS0yLWV4c2l0dS9zcGVjLmxvZwogICAgICAgICAgICAgICAgc2Nhbl9udW1iZXJzOgogICAgICAgICAgICAgICAgLSAxNgogICAgICAgICAgICBkZXRlY3Rvcl9uYW1lczoKICAgICAgICAgICAgICAtIHJldGlnYQogICAgICAgICAgICBzY2hlbWE6IGJyaWdodGZpZWxkCiAgICAgICAgLSBjb21tb24uTWFwUmVhZGVyOgogICAgICAgICAgICBmaWxlbmFtZTogbWFwLnlhbWwKICAgICAgICAgICAgZGV0ZWN0b3JfbmFtZXM6CiAgICAgICAgICAgICAgLSByZXRpZ2EKICAgICAgICAgICAgc2NoZW1hOiB0b21vZmllbGRzCiAgICAgICAgLSBjb21tb24uWUFNTFJlYWRlcjoKICAgICAgICAgICAgZmlsZW5hbWU6IHJldGlnYS55YW1sCiAgICAgICAgICAgIHNjaGVtYTogdG9tby5tb2RlbHMuRGV0ZWN0b3IKICAtIHRvbW8uVG9tb0NIRVNTTWFwQ29udmVydGVyCgogICMgRnVsbCB0b21vZ3JhcGh5IHJlY29uc3RydWN0aW9uCiAgLSB0b21vLlRvbW9EYXRhUHJvY2Vzc29yOgogICAgICByZWR1Y2VfZGF0YTogVHJ1ZQogICAgICBmaW5kX2NlbnRlcjogVHJ1ZQogICAgICByZWNvbnN0cnVjdF9kYXRhOiBUcnVlCiAgICAgIG91dHB1dF9mb2xkZXI6IC9uZnMvY2hlc3Mvc2NyYXRjaC91c2VyL3J2NDMvMjAyMy0yL2lkM2Evc2hhbmtzLTM3MzEtYS90aS0yLWV4c2l0dS9yZWR1Y2VkCiAgICAgIHNhdmVfZmlnczogJ29ubHknCiAgLSBjb21tb24uTmV4dXNXcml0ZXI6CiAgICAgIGZpbGVuYW1lOiAvbmZzL2NoZXNzL3NjcmF0Y2gvdXNlci9ydjQzLzIwMjMtMi9pZDNhL3NoYW5rcy0zNzMxLWEvdGktMi1leHNpdHUvcmVkdWNlZC9yZWNvbnN0cnVjdGVkX2RhdGEubnhzCiAgICAgIGZvcmNlX292ZXJ3cml0ZTogdHJ1ZQoK"
+        },
+        {
+          "type": "json-object",
+          "filename": "generated-nsdf-convert.json",
+          "object": {
+            "id": "6",
+            "group": "test-group",
+            "name": "example-nexus",
+            "src": "/nfs/chess/scratch/user/rv43/2023-2/id3a/shanks-3731-a/ti-2-exsitu/reduced/reduced_data.nxs",
+            "dst": "/mnt/data1/nsdf-convert-workflow/test-group/data/example-nexus/visus.idx",
+            "compression": "zip",
+            "arco": "1mb",
+            "insert_time": "2023-09-15 08:10:06.100519",
+            "conversion_start": "2023-09-15 09:54:42.062486",
+            "conversion_end": "2023-09-15 09:56:38.776753"
+          }
+        }
+      ]
     }
   ]
 }
