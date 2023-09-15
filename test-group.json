@@ -179,6 +179,67 @@
           }
         }
       ]
+    },
+    {
+      "name": "test-group/example-ti-2-exsitu/18",
+      "url": "https://nsdf01.classe.cornell.edu/mod_visus?action=readdataset&dataset=test-group/example-ti-2-exsitu/18&cached=idx",
+      "color-mapper-type": "log",
+      "metadata": [
+        {
+          "type": "json-object",
+          "filename": "/nfs/chess/raw/2023-2/id3a/shanks-3731-a/ti-2-exsitu/id3a-rams2_tomo_scan_layers-retiga-ti-2-exsitu.json",
+          "object": {
+            "0": "date",
+            "1": "time",
+            "2": "epoch",
+            "3": "SCAN_N",
+            "4": "junkstart",
+            "5": "goodstart",
+            "6": "ramsx",
+            "7": "ramsz",
+            "8": "initial_load_volts",
+            "9": "initial_load_newtons",
+            "10": "initial_screw",
+            "11": "final_load_volts",
+            "12": "final_load_newtons",
+            "13": "final_screw",
+            "14": "ome_start_req",
+            "15": "ome_end_req",
+            "16": "nframes_req",
+            "17": "ome_start_real",
+            "18": "ome_end_real",
+            "19": "nframes_real",
+            "20": "step_real",
+            "21": "count_time",
+            "22": "load_step",
+            "23": "MECHTEST_CYCLE_NUM",
+            "24": "foil_in",
+            "25": "det",
+            "26": "scan_type"
+          }
+        },
+        {
+          "type": "b64encode",
+          "filename": "/nfs/chess/raw/2023-2/id3a/shanks-3731-a/ti-2-exsitu/id3a-rams2_tomo_scan_layers-retiga-ti-2-exsitu.par",
+          "encoded": "CjIwMjMwNTMxIDIxMDM0NCAxNjg1NTgxNDI0IDE1IDQ2IDUwIDAgMCAtMSA1LjM0ODcgLTE0LjY2MTMgLTEgNS4zNDg3IC0xNC42NjEzIDAgMTAgMjAgLTAuMDAwMTI3MTE5IDkuOTk5MDMgMjAgMC40OTk5NTggMSAwIDEgMCByZXRpZ2EgZGYxCjIwMjMwNTMxIDIxMDQ1NyAxNjg1NTgxNDk3IDE2IDcyIDc2IC00LjUgMCAtMSA1LjAzNTM5IC0xNC42NjEzIC0xIDUuMDM1MzkgLTE0LjY2MTMgMCAxMCAyMCAtMC4wMDAxMjcxMTkgOS45OTkwMyAyMCAwLjQ5OTk1OCAxIDAgMSAwIHJldGlnYSBiZjEKMjAyMzA1MzEgMjE1MjM1IDE2ODU1ODQzNTUgMTggOTggMTAyIDAgMCAtMSA1LjM0ODcgLTE0LjY2MTMgLTEgLTAuNjA0MTkgLTE0LjY2MTMgMCAxODAgMTQ0MCAtMC4wMDA4ODk4MzEgMTc5LjY5NyAxNDQxIDAuMTI0NzAzIDEgMCAxIDAgcmV0aWdhIHRvbW8KMjAyMzA1MzEgMjE1NDE3IDE2ODU1ODQ0NTcgMTkgMTU1OSAxNTYzIDAgMCAtMSAtMC4yOTA4OCAtMTQuNjYxMyAtMSA0LjcyMjA4IC0xNC42NjEzIDAgMTAgMjAgLTAuMDAwMTI3MTE5IDkuOTk5MDMgMjAgMC40OTk5NTggMSAwIDEgMCByZXRpZ2EgZGYyCjIwMjMwNTMxIDIxNTUzMCAxNjg1NTg0NTMwIDIwIDE1ODUgMTU4OSAtNC41IDAgLTEgNS4wMzUzOSAtMTQuNjYxMyAtMSA0LjcyMjA4IC0xNC42NjEzIDAgMTAgMjAgLTAuMDAwMTI3MTE5IDkuOTk5MDMgMjAgMC40OTk5NTggMSAwIDEgMCByZXRpZ2EgYmYy"
+        },
+        {
+          "type": "json-object",
+          "filename": "generated-nsdf-convert.json",
+          "object": {
+            "id": "4",
+            "group": "test-group",
+            "name": "example-ti-2-exsitu/18",
+            "src": "/nfs/chess/raw/2023-2/id3a/shanks-3731-a/ti-2-exsitu/18/nf/nf_*.tif",
+            "dst": "/mnt/data1/nsdf-convert-workflow/test-group/data/example-ti-2-exsitu/18/visus.idx",
+            "compression": "zip",
+            "arco": "1mb",
+            "insert_time": "2023-09-15 05:33:30.269284",
+            "conversion_start": "2023-09-15 05:33:30.563923",
+            "conversion_end": "2023-09-15 05:35:46.993422"
+          }
+        }
+      ]
     }
   ]
 }
