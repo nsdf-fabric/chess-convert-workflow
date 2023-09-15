@@ -1,7 +1,7 @@
 {
   "datasets": [
     {
-      "name": "test-group/example-2023_09_15_04_57_AM",
+      "name": "test-group/AAAAAAAAAAAAAAAAAAAA",
       "url": "https://nsdf01.classe.cornell.edu/mod_visus?action=readdataset&dataset=test-group/example-2023_09_15_04_57_AM&cached=idx",
       "color-mapper-type": "log",
       "metadata": [
